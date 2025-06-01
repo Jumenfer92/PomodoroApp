@@ -1,0 +1,23 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600&display=swap');
+
+:root {
+  --bg: #0a0c1b;
+  --fg: #e0e0f0;
+  --accent: #3aa9ff;
+  --secondary: #1f2235;
+  --highlight: #7fd3ff;
+  --shadow: rgba(58, 169, 255, 0.3);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: 'Unbounded', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
